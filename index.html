@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--header-->
+    <div class="header">
+
+        <!--inicio-->
+        <div class="heardeInicio">
+            <div class="heardeInicio1">
+                <img src="img/logo.png" height="80px" class="logo">
+            </div>
+            <div class="heardeInicio2">
+                <h1>Converções de Moedas</h1>
+            </div>
+        </div>
+
+        <!--meio-->
+        <div class="heardeMeio">
+            <input type="text" nome="pesquisa" placeholder="Pesquisar" class="pesquisa"/>
+        </div>
+
+        <!--fim-->
+        <div class="heardeFim">
+            <h1>login</h1>
+            <img src="img/login.png" alt="Login" width="100" height="100">
+        </div>
+        
+    </div>
+
+    <!--meio-->
+    <div class="main">
+        <div class="meio">
+            <h1>Escolha as moedas:</h1>
+            
+            <div class="linha">
+                <select id="moeda1" name="moeda1" class="opcao">
+                    <option value="USD">Dólar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="BRL">Real</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="GBP">Libra</option>
+                    <option value="JPY">Iene</option>
+                    <option value="CHF">Franco Suíço</option>
+                </select>
+        
+                <select id="moeda2" name="moeda2" class="opcao">
+                    <option value="BRL">Real</option>
+                    <option value="USD">Dólar</option>
+                    <option value="EUR">Euro</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="GBP">Libra</option>
+                    <option value="JPY">Iene</option>
+                    <option value="CHF">Franco Suíço</option>
+                </select>
+        
+                <button onclick="buscarCotacao()" class="opcao">Buscar Cotação</button>
+            </div>
+        
+            <p id="resultado"></p>
+        </div>
+        
+    </div>
+
+    <!--fim-->
+    <div class="footer">
+        <a href="obs.html"><h1>Observações</h1></a>
+        <h1>Atividade Proposta por:<br><a href="https://github.com/israelcunha"><b>Israel Cunha</b></a></h1> <!--eu acho que o nome dele é esse?-->
+    </div>
+
+    <!--Copyright-->
+    <div class="rodape">
+        <h1>2025 - Copyright</h1>
+    </div>
+    
+</body>
+
+
+<script src="javascripty/index.js"></script>
+
+</html>
