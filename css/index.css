@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+    margin: 3px; /* Remove margens padrão */
+    background-color: rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    gap: 10px; /* Espaço entre os filhos */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    background-color: rgb(9, 114, 60); /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+}
+
+
+/*inicio do header*/
+.logo {
+    border-radius: 10px;
+}
+
+.heardeInicio1 {
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: 10px; /* Espaço entre a logo e o texto */
+    
+}
+.heardeInicio2 {
+    display: flex;
+    flex: 1;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: left; /* Alinha o texto à esquerda */
+}
+
+.heardeInicio {
+    flex: 1; /* Cada um ocupa 1/3 */
+    display: flex;
+    justify-content: left; /* Centraliza conteúdo */
+    align-items: center;
+    
+}
+
+/*meio do header*/
+.pesquisa {
+    width: 600px; /* Define a largura */
+    height: 50px; /* Define a altura */
+    font-size: 30px; /* Ajusta o tamanho do texto */
+    padding: 5px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Arredonda as bordas */
+    border: 1px solid #ccc; /* Define a borda */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+
+.pesquisa::placeholder {
+    font-size: 30px; /* Aumenta o tamanho do texto do placeholder */
+    color: #888; /* Define a cor do texto do placeholder */
+    font-style: italic; /* Opcional: deixa o texto em itálico */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+
+.heardeMeio {
+    flex: 1; /* Cada um ocupa 1/3 */
+    display: flex;
+    border-radius: 9px;
+    justify-content: center; /* Centraliza conteúdo */
+    align-items: center;
+}
+
+/*fim do header*/
+.heardeFim {
+    flex: 1; /* Cada um ocupa 1/3 */
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaçamento entre o texto e a imagem */
+}
+
+/*mais principal da pagina*/
+.main {
+    color: rgb(254, 254, 254);
+    background-color: rgb(118, 235, 79);;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px;
+    height: 80%;
+    flex-direction: column; /* Organiza os filhos em coluna */
+}
+
+.meio {
+    font-size: 40px; /* aumenta o tamanho da letra */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    text-align: center; 
+    color: white;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaço entre os selects e botão */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Quebra linha em telas pequenas */
+}
+
+#resultado {
+    font-size: 40px; /* aumenta o tamanho da letra */
+    font-weight: bold; /* deixa em negrito */
+    color: #ffffff; /* cor do texto (mude se quiser outro) */
+    margin-top: 20px; /* espaço acima */
+}
+
+.opcao {
+    font-size: 30px; /* Aumenta o tamanho do texto do placeholder */
+    color: #888; /* Define a cor do texto do placeholder */
+    font-style: italic; /* Opcional: deixa o texto em itálico */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+}
+
+/*footer rodape da pagina*/
+
+.footer {
+    display: flex;
+    color: #ffffff;
+    background-color: rgb(9, 154, 79); /* Cor de fundo */
+    padding: 20px;
+    height: 10%;
+    justify-content: center; /* Centraliza horizontalmente */   
+    align-items: center; /* Centraliza verticalmente */
+    gap: 300px; /* Espaçamento entre o texto e a imagem */
+}
+
+.rodape {
+    display: flex;
+    color: #ffffff;
+    background-color: rgb(9, 114, 60); /* Cor de fundo */
+    padding: 20px;
+    height: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*link rodape*/
+a {
+    padding: 5px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Arredonda as bordas */
+    color: rgb(255, 251, 26);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: green;
+}
